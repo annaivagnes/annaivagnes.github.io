@@ -34,8 +34,8 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
-$base-color-hover: darken($base-color, 10%);
+$base-color: #3a7ea8;
+$base-color-hover: darken($base-color, 15%);
 
 // Define background colors
 $background: #fff;
@@ -449,6 +449,8 @@ footer {
     padding: 75px 15px;
     border-bottom: 1px solid $border;
 
+    
+
     h2 {
         color: $heading;
     }
@@ -456,7 +458,19 @@ footer {
     p {
         color: $text;
         margin: 0;
+        display: flex;
+        align-items: center;
     }
+    .content-wrapper {
+        display: flex;
+    }
+    
+    img {
+        margin-right: 5%;
+        max-width: 30%;
+        margin-left: 10%;
+        border: 2px solid $base-color; /* Add a solid border around the image with red color */
+        }
 }
 
 /*
