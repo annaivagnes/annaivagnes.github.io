@@ -383,6 +383,39 @@ footer {
         font-size: 2.25em;
         margin-bottom: 15px;
     }
+    ul {
+        display: inline-block;
+       // background: $background;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    a {
+        display: block;
+        padding: 20px 40px;
+        color: #b7dedd;
+        font-size: 3em;
+
+        &:hover {
+            color: $base-color-hover;
+            text-decoration: none;
+            background: #eee;
+            border-radius: 4px;
+        }
+
+        &:focus {
+            color: $base-color;
+            text-decoration: none;
+        }
+    } 
 }
 
 #lead-overlay {
@@ -602,9 +635,12 @@ footer {
 }
 
 .education-block {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto 30px auto;
-    padding: 15px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 1px solid $border;
     text-align: left;
 
@@ -612,12 +648,21 @@ footer {
         font-weight: 500;
         float: left;
         margin: 0;
-        color: $heading;
+        color: $base-color-hover;
+    }
+    a {
+        font-weight: 500;
+        float: left;
+        margin: 0;
+        color: $base-color;
+        margin-bottom: 15px;
+        padding-right: 20px;
     }
 
     span {
         color: $text;
         float: right;
+        font-size: 0.8em;
     }
 
     h4 {
@@ -661,7 +706,7 @@ footer {
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
-    border-radius: 4px;
+    border-radius: 1px;
 }
 
 .project-image {
@@ -676,7 +721,7 @@ footer {
     padding: 15px;
 
     h3 {
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
@@ -684,8 +729,11 @@ footer {
 
     p {
         color: $text;
-        margin: 0 0 15px 0;
-        font-size: 0.9em;
+        margin: 0 0 8px 0;
+        font-size: 0.87em;
+    }
+    a {
+        font-size: 0.87em;
     }
 }
 
@@ -907,6 +955,38 @@ footer {
         h2 {
             font-size: 1.75em;
         }
+        ul {
+            display: inline-block;
+           // background: $background;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+    
+        li {
+            display: inline-block;
+        }
+    
+        a {
+            display: block;
+            padding: 10px 20px;
+            color: #b7dedd;
+            font-size: 1.5em;
+    
+            &:hover {
+                color: $base-color-hover;
+                text-decoration: none;
+                background: #eee;
+                border-radius: 4px;
+            }
+    
+            &:focus {
+                color: $base-color;
+                text-decoration: none;
+            }
+        }
     }
 
     #about {
@@ -957,8 +1037,37 @@ footer {
             font-size: 1.3em;
         }
 
+        ul {
+            display: inline-block;
+           // background: $background;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+    
+        li {
+            display: inline-block;
+        }
+    
         a {
+            display: block;
             padding: 10px 20px;
+            color: #b7dedd;
+            font-size: 1.5em;
+    
+            &:hover {
+                color: $base-color-hover;
+                text-decoration: none;
+                background: #eee;
+                border-radius: 4px;
+            }
+    
+            &:focus {
+                color: $base-color;
+                text-decoration: none;
+            }
         }
     }
 
@@ -1007,8 +1116,40 @@ footer {
         }
 
         a {
-            font-size: 0.9em;
-            padding: 5px 10px;
+            font-size: 2em;
+            //padding: 5px 10px;
+        }
+        ul {
+            display: inline-block;
+           // background: $background;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+    
+        li {
+            display: inline-block;
+        }
+    
+        a {
+            display: block;
+            padding: 10px 20px;
+            color: #b7dedd;
+            font-size: 1.5em;
+    
+            &:hover {
+                color: $base-color-hover;
+                text-decoration: none;
+                background: #eee;
+                border-radius: 4px;
+            }
+    
+            &:focus {
+                color: $base-color;
+                text-decoration: none;
+            }
         }
     }
 
